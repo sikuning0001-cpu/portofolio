@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 70px;
+}
+
+.hero {
+    padding-top: 56px;
+    background: linear-gradient(135deg, #1f2a44 0%, #283c63 55%, #3a5a8c 100%);
+}
+
+.avatar {
+    width: 240px;
+    height: 240px;
+    font-size: 5rem;
+    border: 8px solid rgba(255, 255, 255, 0.25);
+}
+
+.avatar-kecil {
+    width: 56px;
+    height: 56px;
+    font-size: 1.25rem;
+}
+
+.card-img-top {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: top;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.sertifikat-thumb {
+    aspect-ratio: 1.414;
+    object-fit: contain;
+}
